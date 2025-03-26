@@ -39,5 +39,3 @@ SELECT indicator_name, COUNT(*)
 FROM dataanalytics.international_debt id 
 GROUP BY indicator_name
 ORDER BY count DESC ;
-
--- 
